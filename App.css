@@ -1,0 +1,97 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.VideoPlayer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+video {
+  border-radius: 5px;
+}
+
+.timeContainer {
+  height: 25%;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: .75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.times {
+  font-size: 70%;
+}
+
+.actionBar {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.play-pause-button {
+  width: 4%;
+  height: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+.play-pause-button svg {
+  width: 100%;
+  height: 100%;
+  fill: gray;
+}
+
+.progressWrapper {
+  width: 94%;
+}
+
+.ProgressContainer {
+  height: 4px;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+.Progress {
+  height: 100%;
+  background-color: blue;
+}
+
+.ProgressBall {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 50%;
+  bottom: 175%;
+}
+
+.clickExtention {
+  padding-bottom: 2%;
+}
+
+.pinContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.Pin {
+  position: relative;
+  width: 0px;
+  height: 15px;
+  top: 0;
+}
